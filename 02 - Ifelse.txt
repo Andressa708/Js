@@ -10,3 +10,40 @@
     console.log('Você não é maior de idade')
  }
 
+//2 - Crie uma condição que exiba uma mensagem no console se você for maior de idade 
+//E a condição humana seja true
+let humano=true
+if(idade>=18 && humano ==true){
+	console.log("voce é humano e pode comer vegetais")
+}else{
+	console.log("maquina não come ou voce não é maior de 18 anos.")
+
+
+////3 - Criar uma condição que exiba uma mensagem no console se você fizer
+// aniversário em Janeiro OU Dezembro
+let aniversário="Fevereiro"
+if(aniversario==="Janeiro"|| aniversario ==="dezembro"){
+	console.log("voce é capricorniana, mais sorte da próxima vez")
+}else{
+	console.log("Parabens voce não é capricorniana, pode passar")}
+
+//*** Exercícios bônus
+//4 - Criar uma condição que exiba uma mensagem no console se 
+//seu nome começar com a letra R
+let nome="Andressa"
+if (nome[0] ==="R" || nome[0]==="r"{
+	console.log("seu nome começa  com 'R')
+}else{
+	console.log ('seu nome não começa com a letra "R")
+}
+
+//5 - Criar uma condição que exiba uma mensagem no console 
+//se seu sobrenome tenha mais de 6 letras OU seu nome começar 
+//com a letra E
+let sobrenome="Lemes Andrade"
+if(sobrenome.length >6 || nome.substring(0,1)==="e"){
+	console.log("seu sobrenome não tem mais de seis letras e ou começa
+com "E")}
+
+
+
