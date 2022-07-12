@@ -1,0 +1,12 @@
+02 -  if/else
+
+
+//1 - Crie uma condição que exiba uma mensagem no console se 
+//a idade for maior que 18
+ if(idade >= 18) {
+   let mensagem = 'Você é maior de idade'
+    console.log(mensagem)
+ } else {
+    console.log('Você não é maior de idade')
+ }
+
